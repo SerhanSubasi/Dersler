@@ -5,7 +5,7 @@ public class Concatenation {
     public static void main(String[] args) {
 
         //Ornek : Bir String ve iki integer variable olusturun. String degeri ile Integer larin toplamini console yazdirin
-
+/*
         String s = "elma";
 
         int a = 10;
@@ -29,6 +29,7 @@ public class Concatenation {
         4) Toplama ve Çıkarmalar yapılır
         5) Aynı öncelikli olanlarda soldan sağa başlanır.
          */
+
 
 
     }

@@ -47,8 +47,8 @@ public class ForLoops01 {
         }
 
         System.out.println();
-
 */
+
 
 
 Scanner input = new Scanner(System.in);

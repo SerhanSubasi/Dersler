@@ -3,7 +3,6 @@ package day03wrapperconcatenationoperators;
 import java.util.Scanner;
 
 public class day03Practice {
-
     public static void main(String[] args) {
 
         //Wrapper Class: Character, Boolean, Byte, Short, Integer, Long, Float, Double
