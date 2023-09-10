@@ -8,6 +8,7 @@ public class ArrayLists02 {
         //Örnek : Tekrarli elemanlari olan bir listten sadece tekrarsiz elemanlari olan bir list elde edinn
         //           [J, a, v, a, v] ==> [J, a, v]
 
+
         List<Character> a = new ArrayList<>();        //ArrayList aynı zamanda List demek. a objesi list tipinde oldu.
 a.add('J');
 a.add('a');
@@ -43,6 +44,7 @@ a.add('v');
                 r.remove(w);    //w girdik çünkü w ''a'' içeriyorsa kaldır.
             }
         }
+
  */
 
 //Ancak foreach burada hata verir. Listten eleman silince lenght yani indexler değişir, foreach'de güncellenmediği için çalışmaz.

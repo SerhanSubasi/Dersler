@@ -7,7 +7,7 @@ public class ArrayLists01 {
 
         ArrayList < Integer > ages = new ArrayList<>();
 
-              // Bunu yazdırırken sout ile yazdırırsın ve İçerisi boşsa boş verir, arreylerdeki gibi 0 vermez.
+              //Bunu yazdırırken sout ile yazdırırsın ve İçerisi boşsa boş verir, arreylerdeki gibi 0 vermez.
 
 //ArrayListlere eleman ekleme
     ages.add(9);
@@ -35,6 +35,7 @@ ages.addAll(0,newAges); //birini diğerine ekleme ama indexi kendin belirlersin 
 
 int numOfElement = ages.size(); // 12 - kaç eleman olduğunu verdi.
         System.out.println(numOfElement);
+
 int el= ages.get(1);    //get ile içinden spesifik birisini alırsın. index sayısı girerek.
         System.out.println(el);
 
@@ -61,6 +62,14 @@ if (w%2 !=0) {
 }
         }
         System.out.println(list);  //[11, 24, 12, 11, 11]
+
+
+
+
+
+
+
+
 
 
 
