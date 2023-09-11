@@ -17,7 +17,8 @@ Not: AArrays.asList() methodunu kullanarak bir list oluşturursanız , listin el
 methodları kullanamazsınız. remove, add, clear gibi.
  */
 
-        list.set(1,63);         //bu kullanılabilir.
+        list.set(1,63);
+        list.set(3,21);  //bu kullanılabilir.
         System.out.println(list);
 
 

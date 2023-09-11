@@ -21,25 +21,9 @@ nums.add(19);
  Collections.sort(nums);         // ArrayListleri veya Arrayleri short yapmak için Collection'dan çağırırız.
  System.out.println(nums);   //[10, 12, 19, 23]
 
-int minDiff = nums.get(1) - nums.get(0) ;        //Birinci index 0. indexten daha büyük olduğu için küçükten büyüğe olduğu için.
+//Birinci index 0. indexten daha büyük olduğu için küçükten büyüğe olduğu için.
 
-        //En küçük farkın kaç olduğunu bulan kodu yazalım
 
-        for (int i = 1; i < nums.size(); i++) {
-
-           minDiff = Math.min(minDiff,nums.get(i) - nums.get(i -1 ));
-
-        }
-        System.out.println(minDiff);
-
-//en küçük farkı hangi iki sayıdan elde ettiğimizi bulalım
-
-        for (int i = 1; i < nums.size(); i++) {
-
-            if (nums.get(i) - nums.get(i) -1 == minDiff ){
-                System.out.println(minDiff);
-            }
-        }
 */
 
         List<Integer> nums = new ArrayList<>();
@@ -47,10 +31,14 @@ int minDiff = nums.get(1) - nums.get(0) ;        //Birinci index 0. indexten dah
         nums.add(23);
         nums.add(10);
         nums.add(19);
-
+        nums.add(24);
+        nums.add(3);
+        nums.add(2);
+        nums.add(6);
+        System.out.println(nums);   //[12, 23, 10, 19, 24, 3, 2, 6]
         Collections.sort(nums);
 
-        System.out.println(nums);//[10, 12, 19, 23]
+        System.out.println(nums);   //[2, 3, 6, 10, 12, 19, 23, 24]
 
 
 
@@ -60,8 +48,12 @@ int minDiff = nums.get(1) - nums.get(0) ;        //Birinci index 0. indexten dah
 
         for (int i = 1;            i < nums.size();                 i++) {
             minDiff = Math.min(minDiff, nums.get(i) - nums.get(i - 1));
+
         }
         System.out.println(minDiff);
+
+
+
 
         // en kucuk farki hangi iki sayidan elde ettigimizi bulalim
 
@@ -70,6 +62,34 @@ int minDiff = nums.get(1) - nums.get(0) ;        //Birinci index 0. indexten dah
                 System.out.println(nums.get(i) + " ve  "+ nums.get(i - 1));
             }
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

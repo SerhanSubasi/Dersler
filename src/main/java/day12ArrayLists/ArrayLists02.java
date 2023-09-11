@@ -5,7 +5,7 @@ import java.util.List;
 
 public class ArrayLists02 {
     public static void main(String[] args) {
-        //Örnek : Tekrarli elemanlari olan bir listten sadece tekrarsiz elemanlari olan bir list elde edinn
+        //Örnek : Tekrarli elemanlari olan bir listten sadece tekrarsiz elemanlari olan bir list elde edin
         //           [J, a, v, a, v] ==> [J, a, v]
 
 
@@ -61,5 +61,14 @@ a.add('v');
 //remove içerecek sorularda fori ve --; kullanmalıyız.
 
     }
+
+
+
+
+
+
+
+
+
 }
 
