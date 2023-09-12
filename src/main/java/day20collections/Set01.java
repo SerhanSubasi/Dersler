@@ -46,7 +46,6 @@ TreeSet: Elemanları Natural Order ile dizer.  Çok titizlerdir bu yüzden baya 
 
 
         LinkedHashSet<Integer> lhs = new LinkedHashSet<>();
-
         lhs.add(313);
         lhs.add(19);
         lhs.add(7);
