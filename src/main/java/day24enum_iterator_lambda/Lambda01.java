@@ -144,7 +144,7 @@ public static void getMaximumValue1( List<Integer> nums){
         Integer min = nums.
                 stream().
                 distinct().
-                reduce((t,u)-> t>u ? u : t).
+                reduce((t,u)-> t>u ? u : t).    // t-u'dan büyükse, u küçüktür onu seç. t-u'dan küçükse, t küçüktür onu seç.
                 get();
         System.out.println(min);
 
