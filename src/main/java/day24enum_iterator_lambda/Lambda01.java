@@ -15,6 +15,10 @@ public class Lambda01 {
     "Structured Programming"de ise nasıl yapılacak üzerine yoğunlaşılır.
 3) Functional Programming'i Collectionlar ve Arrayler ile kullanırız.
 4) Lambda (Functional Programming) java 8 ile kullanılmaya başlanmıştır.
+
+Method açıklamaları:
+
+
                 */
 
 
@@ -73,7 +77,7 @@ public static void printCubeOfDistinctOddElements(List<Integer> nums) {
             stream().   // Akışa dönüştürür.
             distinct(). //sadece tekrarsızları seçer
             filter(t -> t % 2 != 0).  //filtre yapar.
-            map(t -> t * t * t).  // dönüştürme yapar.
+            map(t -> t * t * t).  // var olan her bir datayı değiştirir.
             forEach(t -> System.out.println(t + " ")); // her birini alır sout kısmına boşluk da ekleyeceğiz diye doğrudan yazdırmadık.
 
 }
@@ -152,7 +156,8 @@ public static void getMaximumValue1( List<Integer> nums){
                 stream().
                 distinct().
                 sorted(Comparator.reverseOrder()).
-                reduce((t,u)->u).get();
+                reduce((t,u)->u).
+                get();
         System.out.println(min);
     }
     //3.yol
