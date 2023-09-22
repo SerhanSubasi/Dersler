@@ -1,4 +1,4 @@
-package day24enum_iterator_lambda;
+package day25lambda;
 
 import java.util.ArrayList;
 import java.util.Arrays;
