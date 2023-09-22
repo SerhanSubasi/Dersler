@@ -14,6 +14,7 @@ public class Lambda01 {
         Course courseEnglishDay = new Course("Spring", "English Day", 95, 132);
         Course courseEnglishNight = new Course("Winter", "English Night", 93, 144);
         System.out.println("Merhaba");
+        System.out.println("Deneme2");
         List<Course> coursesList = new ArrayList<>();
         coursesList.add(courseTurkishDay);
         coursesList.add(courseTurkishNight);
